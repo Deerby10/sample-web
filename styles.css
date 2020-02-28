@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+.top-content{
+    width: 100%;
+    height: 20rem;
+    background-image: url('img/top-img.jpg');
+    background-size: cover;
+    /* background-size: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+.team-pictures{
+    display: flex;
+    justify-content: space-around;
+}
+.team-pictures img{
+    margin-top: auto;
+    height: 10.3rem;
+    width: auto;
+    margin-left: 5px;
+}
+.team {
+    margin-top: auto;
+    height: 200px;
+    color: snow;
+    font-size: 30px;
+    font-weight: bold;
+}
+a {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+    color: turquoise;
+}
+
+
+.nav{
+    text-align: right;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+.slum{
+    width: 100%;
+}
+
+.slum-content p{
+    width: auto;
+    text-indent: 70px;
+    font-size: 1.2rem;
+    margin-right: .7rem;
+    margin-left: .7rem;
+}
+.pictures-content{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.pictures-content img{
+    height: 13rem;
+    width: auto;
+    margin-right: 1.5rem;
+}
+.problems-content{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+    margin-left: 10px;
+}
+.problems-img1{
+    background:url('img/prob1.jpg');
+    width: 49.5%;
+    height: 15rem;
+    background-size: cover;
+}
+.problems-img2{
+    background:url('img/prob2.jpg');
+    width: 49%;
+    background-size: cover;
+}
+.sol-pic{
+    background: url('img/solutions-img.jpg');
+    height: 30rem;
+    background-size: cover;
+}
+.feel-pic{
+    background: url('img/feelings-img.jpg');
+    height: 30rem;
+    background-size: cover;
+}
