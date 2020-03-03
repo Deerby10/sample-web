@@ -63,6 +63,11 @@ ul li{
     margin-right: .7rem;
     margin-left: .7rem;
 }
+.pictures{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .pictures-content{
     display: flex;
     justify-content: space-between;
@@ -74,6 +79,11 @@ ul li{
     width: auto;
     margin-right: 1.5rem;
 }
+.problems{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .problems-content{
     display: flex;
     justify-content: space-between;
@@ -84,22 +94,69 @@ h3{
 }
 .problems-img1{
     background:url('img/prob1.jpg');
-    width: 49.5%;
+    width: 48%;
     height: 15rem;
     background-size: cover;
 }
 .problems-img2{
     background:url('img/prob2.jpg');
-    width: 49%;
+    width: 50%;
     background-size: cover;
+}
+.solutions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sol-content{
+    border: solid 1px black;
+    padding: .8rem;
+    box-shadow: 5px 10px #888888;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    width: 45%;
+    margin-top: 5px;
 }
 .sol-pic{
     background: url('img/solutions-img.jpg');
-    height: 30rem;
+    height: 18rem;
+    width: 50%;
     background-size: cover;
+}
+.feelings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .feel-pic{
     background: url('img/feelings-img.jpg');
-    height: 30rem;
+    height: 20rem;
+    width: 50%;
     background-size: cover;
+}
+.feel-content{
+    border: solid 1px black;
+    padding: .8rem;
+    box-shadow: 5px 10px #888888;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    width: 50%;
+    margin-top: 5px;
+}
+.feel-content p{
+    text-indent: 3rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.feel-content h1{
+    margin-left: 2rem;
 }
