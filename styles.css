@@ -80,6 +80,7 @@ ul li{
     margin-right: auto;
     margin-bottom: 3rem;
     text-align: center;
+    
 }
 
 .slum-content p{
@@ -143,7 +144,7 @@ h3{
 .sol-content{
     padding: .8rem;
     background-color: #e2e1e1de;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1rem;
     font-size: 1.5rem;
     width: 45%;
@@ -173,7 +174,7 @@ h3{
 }
 .feel-content{
     background-color: #e2e1e1de;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: .2rem;
     border-radius: 1rem;
     margin-left: 2rem;
