@@ -132,28 +132,24 @@ h3{
     background-size: cover;
 }
 .solutions{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
 .sol-content{
-    padding: .8rem;
-    background-color: #e2e1e1de;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    width: 45%;
-    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
-.sol-pic{
-    background: url('img/solutions-img.jpg');
-    height: 18rem;
-    width: 50%;
+.sol-pic1{
+    background: url('img/job1.jpg');
+    width: 48%;
+    height: 15rem;
+    background-size: cover;
+}
+.sol-pic2{
+    background: url('img/training.jpg');
+    width: 48%;
+    height: 15rem;
     background-size: cover;
 }
 .feelings {
@@ -168,18 +164,19 @@ h3{
 }
 .feel-pic{
     background: url('img/feelings-img.jpg');
-    height: 20rem;
-    width: 50%;
+    height: 23rem;
+    width: 100%;
     background-size: cover;
 }
 .feel-content{
-    background-color: #e2e1e1de;
+    background-color: #36353532;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: .2rem;
     border-radius: 1rem;
-    margin-left: 2rem;
-    width: 50%;
-    margin-top: 5px;
+    color: #f3f3f3;
+    margin: auto;
+    margin: 60px auto auto auto;
+    width: 80%;
 }
 .feel-content p{
     text-indent: 3rem;
