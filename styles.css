@@ -122,13 +122,14 @@ h3{
 }
 .problems-img1{
     background:url('img/prob1.jpg');
-    width: 48%;
+    width: 49%;
     height: 15rem;
     background-size: cover;
 }
 .problems-img2{
     background:url('img/prob2.jpg');
-    width: 50%;
+    width: 49%;
+    height: 15rem;
     background-size: cover;
 }
 .solutions{
@@ -142,47 +143,40 @@ h3{
 }
 .sol-pic1{
     background: url('img/job1.jpg');
-    width: 48%;
+    width: 49%;
     height: 15rem;
     background-size: cover;
 }
 .sol-pic2{
     background: url('img/training.jpg');
-    width: 48%;
+    width: 49%;
     height: 15rem;
     background-size: cover;
 }
 .feelings {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    margin-bottom: 2rem;
     width: 80%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 .feel-pic{
+    border: solid transparent 1px;
     background: url('img/feelings-img.jpg');
     height: 23rem;
     width: 100%;
     background-size: cover;
 }
 .feel-content{
-    background-color: #36353532;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: .2rem;
-    border-radius: 1rem;
     color: #f3f3f3;
     margin: auto;
-    margin: 60px auto auto auto;
     width: 80%;
 }
 .feel-content p{
+    margin: 100px auto auto auto;
+    background-color: #36353547;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    border-radius: 1rem;
     text-indent: 3rem;
     font-size: 1.2rem;
-    margin-left: 2rem;
-}
-.feel-content h1{
-    margin-left: 2rem;
 }
